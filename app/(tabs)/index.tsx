@@ -5,6 +5,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import MiComponente from '@/components/MiComponente';
+import Perros from '@/components/Perros';
 
 export default function HomeScreen() {
   return (
@@ -18,7 +19,8 @@ export default function HomeScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <MiComponente/>        
-        <HelloWave />
+        <Perros />
+        
         <HelloWave />
         <HelloWave />
       </ThemedView>
